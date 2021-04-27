@@ -15,6 +15,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'preservim/tagbar'
 Plug 'mileszs/ack.vim'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " tagbar
