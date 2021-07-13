@@ -23,9 +23,8 @@ Plug 'preservim/nerdtree'
 call plug#end()
 
 " floaterm
-let g:floaterm_autoclose = 2
+let g:floaterm_autoclose = 1
 let g:floaterm_keymap_toggle = '<F2>'
-let g:floaterm_keymap_kill = '<F4>'
 
 " tagbar
 let g:tagbar_compact=1
