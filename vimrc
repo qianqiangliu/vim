@@ -17,7 +17,6 @@ Plug 'preservim/tagbar'
 Plug 'mileszs/ack.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'godlygeek/tabular'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'voldikss/vim-floaterm'
 Plug 'preservim/nerdtree'
 call plug#end()
@@ -28,6 +27,10 @@ let g:floaterm_keymap_toggle = '<F2>'
 
 " tagbar
 let g:tagbar_compact=1
+let g:tagbar_iconchars=['▸', '▾']
+let g:tagbar_sort=0
+let g:tagbar_indent=0
+let g:tagbar_autofocus=1
 nmap <F8> : TagbarToggle<CR>
 
 " nerdtree
