@@ -19,6 +19,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'godlygeek/tabular'
 Plug 'voldikss/vim-floaterm'
 Plug 'preservim/nerdtree'
+Plug 'bronson/vim-trailing-whitespace'
 call plug#end()
 
 " floaterm
@@ -42,4 +43,5 @@ nmap <F7> : NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 nmap <F3> : Files<CR>
+nmap <F5> : FixWhitespace<CR>
 nmap <F6> : !ctags -R -f .tags<CR>
