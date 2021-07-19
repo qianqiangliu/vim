@@ -8,6 +8,8 @@ set tags=./.tags;,.tags
 set expandtab
 syntax on
 
+packadd! matchit
+
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 call plug#begin()
@@ -30,7 +32,6 @@ let g:floaterm_keymap_toggle = '<F2>'
 let g:tagbar_compact=1
 let g:tagbar_iconchars=['▸', '▾']
 let g:tagbar_sort=0
-let g:tagbar_indent=0
 let g:tagbar_autofocus=1
 nmap <F8> : TagbarToggle<CR>
 
