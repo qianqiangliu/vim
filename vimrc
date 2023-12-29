@@ -4,6 +4,7 @@ set grepprg=rg\ --vimgrep
 set grepformat=%f:%l:%c:%m
 set matchpairs+=<:>
 set background=dark
+set incsearch
 syntax on
 
 " jump to last position
