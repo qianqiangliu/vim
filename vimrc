@@ -5,6 +5,7 @@ set grepformat=%f:%l:%c:%m
 set matchpairs+=<:>
 set background=dark
 set incsearch
+set wildmenu
 syntax on
 
 " jump to last position
