@@ -1,11 +1,7 @@
 set cindent
-set incsearch
-set tags=./tags;,tags
 set path+=**
 set background=dark
-set wildmenu
 set cursorline
-syntax on
 
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
