@@ -20,6 +20,8 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
+" close quickfix
+nnoremap <C-c> :cclose<CR>
 " list buffers
 nnoremap <Leader>b :ls<CR>:b<Space>
 " expand '%%' to current path
