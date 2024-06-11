@@ -58,9 +58,6 @@ if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 endif
 
-if s:MaySet('laststatus')
-  set laststatus=2
-endif
 if s:MaySet('ruler')
   set ruler
 endif
