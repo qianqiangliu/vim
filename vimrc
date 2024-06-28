@@ -1,6 +1,5 @@
 set cindent
 set cinoptions=:0,l1,t0,g0,(0
-set path+=**
 set background=dark
 set cursorline
 set termguicolors
