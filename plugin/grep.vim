@@ -7,7 +7,7 @@ if exists('g:loaded_grep')
 endif
 let g:loaded_grep = 1
 
-set grepprg=ag\ --vimgrep\ --smart-case
+set grepprg=rg\ --vimgrep\ --smart-case
 set grepformat=%f:%l:%c:%m
 
 command -nargs=+ -complete=file -bar
