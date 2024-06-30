@@ -1,8 +1,8 @@
 set cindent
 set cinoptions=:0,l1,t0,g0,(0
 set background=dark
-set cursorline
 set termguicolors
+set cursorline
 
 colorscheme gruvbox8
 
@@ -14,8 +14,6 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
-" close quickfix
-nnoremap <C-c> :cclose<CR>
 " list buffers
 nnoremap <Leader>b :ls<CR>:b<Space>
 " expand '%%' to current path
